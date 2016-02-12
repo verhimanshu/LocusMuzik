@@ -104,31 +104,5 @@ public class Custom_Adapter_AllSongs extends SimpleCursorAdapter {
 
 	
 
-	/*@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		// TODO Auto-generated method stub
-		 View v = inflater.inflate(layout, null, false);
-	     
-	     v.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				v.setBackgroundColor(Color.BLUE);
-			}
-		});
-	     bindView(v, mContext, cr);
-	     return v;
-		
-	}*/ 
-
-	/*@Override
-	public View newView(Context context, Cursor cursor, ViewGroup parent) {
-		// TODO Auto-generated method stub
-		
-		
-		return inflater.inflate(R.layout.music_items, parent, false);
-	}*/
-	
 
 }
